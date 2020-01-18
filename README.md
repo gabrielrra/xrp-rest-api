@@ -32,17 +32,25 @@ http://localhost:3333/info?myAddress=rfe21ovi4pLzQfszv3DnFWAT4VRkPZCQuS
 After starting the server just a make a POST request to `http://localhost:3333/pay` with two parameters on the body:
 
 
-**payment: *JSON***
+- **payment: *JSON***
+
 A payment object with at least the minimal information to make a transfer
 
 ##### Example
+Make sure to replace `senderXRPAddress` and `receiverXRPAddress` with your own adresses.
 ```json
 {
   "TransactionType": "Payment",
   "Account": senderXRPAddress,
-  "Amount": "2000000",
+  "Amount": "2000000", //1000000 = 1 XRP
   "Destination": receiverXRPAddress,
 },
 ```
-**secret: *String***
+- **secret: *String***
+
 The *secret* of the sender's XRP account
+
+Task List
+- [x] Step one is complete
+- [x] Step two in this unordered list is
+- [x] Step three is done as well
