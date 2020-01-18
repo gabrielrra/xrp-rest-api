@@ -32,7 +32,7 @@ http://localhost:3333/info?myAddress=rfe21ovi4pLzQfszv3DnFWAT4VRkPZCQuS
 After starting the server just a make a POST request to `http://localhost:3333/pay` with two parameters on the body:
 
 
-##### payment: *JSON*
+**payment: *JSON***
 A payment object with at least the minimal information to make a transfer
 
 ##### Example
