@@ -49,8 +49,3 @@ Make sure to replace `senderXRPAddress` and `receiverXRPAddress` with your own a
 - **secret: *String***
 
 The *secret* of the sender's XRP account
-
-Task List
-- [x] Step one is complete
-- [x] Step two in this unordered list is
-- [x] Step three is done as well
